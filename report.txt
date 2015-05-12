@@ -1,13 +1,13 @@
-         100182 function calls in 0.063 seconds
+         100182 function calls in 0.062 seconds
 
    Ordered by: standard name
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
         1    0.000    0.000    0.000    0.000 dis.py:1(<module>)
-        1    0.000    0.000    0.063    0.063 main.py:1(<module>)
-        1    0.040    0.040    0.063    0.063 main.py:22(determineFunc)
+        1    0.000    0.000    0.062    0.062 main.py:1(<module>)
+        1    0.040    0.040    0.062    0.062 main.py:28(determineFunc)
    100000    0.020    0.000    0.020    0.000 main.py:4(addStr1)
-        1    0.000    0.000    0.063    0.063 main.py:40(main)
+        1    0.000    0.000    0.062    0.062 main.py:50(main)
       119    0.000    0.000    0.000    0.000 opcode.py:27(def_op)
        11    0.000    0.000    0.000    0.000 opcode.py:31(name_op)
         6    0.000    0.000    0.000    0.000 opcode.py:35(jrel_op)
@@ -27,9 +27,31 @@
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
         1    0.000    0.000    0.000    0.000 dis.py:1(<module>)
         1    0.000    0.000    0.065    0.065 main.py:1(<module>)
-        1    0.041    0.041    0.065    0.065 main.py:22(determineFunc)
-        1    0.000    0.000    0.065    0.065 main.py:40(main)
+        1    0.040    0.040    0.065    0.065 main.py:28(determineFunc)
+        1    0.000    0.000    0.065    0.065 main.py:50(main)
    100000    0.022    0.000    0.022    0.000 main.py:7(addStr2)
+      119    0.000    0.000    0.000    0.000 opcode.py:27(def_op)
+       11    0.000    0.000    0.000    0.000 opcode.py:31(name_op)
+        6    0.000    0.000    0.000    0.000 opcode.py:35(jrel_op)
+        6    0.000    0.000    0.000    0.000 opcode.py:39(jabs_op)
+        1    0.000    0.000    0.000    0.000 opcode.py:5(<module>)
+        1    0.000    0.000    0.000    0.000 {len}
+       31    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.002    0.001    0.002    0.001 {range}
+
+
+-------------------------------------------
+         100182 function calls in 0.095 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 dis.py:1(<module>)
+        1    0.000    0.000    0.095    0.095 main.py:1(<module>)
+   100000    0.031    0.000    0.031    0.000 main.py:10(addStr3)
+        1    0.062    0.062    0.094    0.094 main.py:28(determineFunc)
+        1    0.000    0.000    0.094    0.094 main.py:50(main)
       119    0.000    0.000    0.000    0.000 opcode.py:27(def_op)
        11    0.000    0.000    0.000    0.000 opcode.py:31(name_op)
         6    0.000    0.000    0.000    0.000 opcode.py:35(jrel_op)
@@ -49,9 +71,9 @@
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
         1    0.000    0.000    0.000    0.000 dis.py:1(<module>)
         1    0.000    0.000    0.098    0.098 main.py:1(<module>)
-   100000    0.033    0.000    0.033    0.000 main.py:10(addStr3)
-        1    0.062    0.062    0.097    0.097 main.py:22(determineFunc)
-        1    0.000    0.000    0.097    0.097 main.py:40(main)
+   100000    0.032    0.000    0.032    0.000 main.py:13(addStr4)
+        1    0.063    0.063    0.098    0.098 main.py:28(determineFunc)
+        1    0.000    0.000    0.098    0.098 main.py:50(main)
       119    0.000    0.000    0.000    0.000 opcode.py:27(def_op)
        11    0.000    0.000    0.000    0.000 opcode.py:31(name_op)
         6    0.000    0.000    0.000    0.000 opcode.py:35(jrel_op)
@@ -64,16 +86,16 @@
 
 
 -------------------------------------------
-         100182 function calls in 0.093 seconds
+         100182 function calls in 0.122 seconds
 
    Ordered by: standard name
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
         1    0.000    0.000    0.000    0.000 dis.py:1(<module>)
-        1    0.000    0.000    0.093    0.093 main.py:1(<module>)
-   100000    0.030    0.000    0.030    0.000 main.py:13(addStr4)
-        1    0.060    0.060    0.093    0.093 main.py:22(determineFunc)
-        1    0.000    0.000    0.093    0.093 main.py:40(main)
+        1    0.000    0.000    0.122    0.122 main.py:1(<module>)
+   100000    0.040    0.000    0.040    0.000 main.py:16(addStr5)
+        1    0.079    0.079    0.122    0.122 main.py:28(determineFunc)
+        1    0.000    0.000    0.122    0.122 main.py:50(main)
       119    0.000    0.000    0.000    0.000 opcode.py:27(def_op)
        11    0.000    0.000    0.000    0.000 opcode.py:31(name_op)
         6    0.000    0.000    0.000    0.000 opcode.py:35(jrel_op)
@@ -86,16 +108,16 @@
 
 
 -------------------------------------------
-         100182 function calls in 0.130 seconds
+         100182 function calls in 0.118 seconds
 
    Ordered by: standard name
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
         1    0.000    0.000    0.000    0.000 dis.py:1(<module>)
-        1    0.000    0.000    0.130    0.130 main.py:1(<module>)
-   100000    0.044    0.000    0.044    0.000 main.py:16(addStr5)
-        1    0.084    0.084    0.130    0.130 main.py:22(determineFunc)
-        1    0.000    0.000    0.130    0.130 main.py:40(main)
+        1    0.000    0.000    0.118    0.118 main.py:1(<module>)
+   100000    0.037    0.000    0.037    0.000 main.py:19(addStr6)
+        1    0.079    0.079    0.118    0.118 main.py:28(determineFunc)
+        1    0.000    0.000    0.118    0.118 main.py:50(main)
       119    0.000    0.000    0.000    0.000 opcode.py:27(def_op)
        11    0.000    0.000    0.000    0.000 opcode.py:31(name_op)
         6    0.000    0.000    0.000    0.000 opcode.py:35(jrel_op)
@@ -108,16 +130,38 @@
 
 
 -------------------------------------------
-         100182 function calls in 0.119 seconds
+         100182 function calls in 0.157 seconds
 
    Ordered by: standard name
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
         1    0.000    0.000    0.000    0.000 dis.py:1(<module>)
-        1    0.000    0.000    0.119    0.119 main.py:1(<module>)
-   100000    0.038    0.000    0.038    0.000 main.py:19(addStr6)
-        1    0.079    0.079    0.119    0.119 main.py:22(determineFunc)
-        1    0.000    0.000    0.119    0.119 main.py:40(main)
+        1    0.000    0.000    0.157    0.157 main.py:1(<module>)
+   100000    0.057    0.000    0.057    0.000 main.py:22(addStr7)
+        1    0.098    0.098    0.157    0.157 main.py:28(determineFunc)
+        1    0.000    0.000    0.157    0.157 main.py:50(main)
+      119    0.000    0.000    0.000    0.000 opcode.py:27(def_op)
+       11    0.000    0.000    0.000    0.000 opcode.py:31(name_op)
+        6    0.000    0.000    0.000    0.000 opcode.py:35(jrel_op)
+        6    0.000    0.000    0.000    0.000 opcode.py:39(jabs_op)
+        1    0.000    0.000    0.000    0.000 opcode.py:5(<module>)
+        1    0.000    0.000    0.000    0.000 {len}
+       31    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.002    0.001    0.002    0.001 {range}
+
+
+-------------------------------------------
+         100182 function calls in 0.140 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 dis.py:1(<module>)
+        1    0.000    0.000    0.140    0.140 main.py:1(<module>)
+   100000    0.039    0.000    0.039    0.000 main.py:25(addStr8)
+        1    0.099    0.099    0.140    0.140 main.py:28(determineFunc)
+        1    0.000    0.000    0.140    0.140 main.py:50(main)
       119    0.000    0.000    0.000    0.000 opcode.py:27(def_op)
        11    0.000    0.000    0.000    0.000 opcode.py:31(name_op)
         6    0.000    0.000    0.000    0.000 opcode.py:35(jrel_op)

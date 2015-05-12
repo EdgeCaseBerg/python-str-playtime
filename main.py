@@ -19,9 +19,15 @@ def addStr5(s,s2,s3):
 def addStr6(s,s2,s3):
 	return ">%s:%s:%s<" % (s,s2,s3)
 
+def addStr7(s,s2,s3,s4):
+	return ">" + s + ":" + s2 + ":" + s3 + ":" + s4 + "<"
+
+def addStr8(s,s2,s3,s4):
+	return ">%s:%s:%s:%s<" % (s,s2,s3,s4)
+
 def determineFunc(c):
 	if c == 0:
-		print("Please pass command line arguments")
+		print("Please pass command line arguments equal to the number you'd like to run")
 	elif c == 1:
 		[addStr1(str(i)) for i in range(100000)]
 	elif c == 2:
@@ -34,8 +40,12 @@ def determineFunc(c):
 		[addStr5(str(i),str(i),str(i)) for i in range(100000)]
 	elif c == 6:
 		[addStr6(str(i),str(i),str(i)) for i in range(100000)]
+	elif c == 7:
+		[addStr7(str(i),str(i),str(i),str(i)) for i in range(100000)]
+	elif c == 8:
+		[addStr8(str(i),str(i),str(i),str(i)) for i in range(100000)]
 	else:
-		print("Only 6 functions defined")
+		print("Only 8 functions defined")
 
 def main():
 	determineFunc(len(sys.argv)-1)
